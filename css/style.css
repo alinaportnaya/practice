@@ -271,6 +271,14 @@ body {
   color: #57984c;
 }
 
+.tomato-title a:hover{
+  color: #324950;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-delay: 0, 0.3s;
+  transition-timing-function: linear;
+}
+
 .tomato-description {
   font-size: 16px;
 }
