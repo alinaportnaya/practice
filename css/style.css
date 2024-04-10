@@ -269,14 +269,11 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: #57984c;
+  transition: color 0.3s;
 }
 
 .tomato-title a:hover{
   color: #324950;
-  transition-property: all;
-  transition-duration: 0.4s;
-  transition-delay: 0, 0.3s;
-  transition-timing-function: linear;
 }
 
 .tomato-description {
