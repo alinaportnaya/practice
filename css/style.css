@@ -175,6 +175,11 @@ body {
   font-weight: 700;
   border-bottom: 1px solid #57984c;
   padding: 15px 0 27px 0;
+  transition: color 0.3s;
+}
+
+.activ-name a:hover {
+  color: #324950;
 }
 
 .activ-description {
@@ -306,6 +311,7 @@ body {
   padding: 20px 0 160px 0;
 }
 
+/*---------Previous Page-----------*/
 .tomato-prev {
   display: flex;
   align-items: center;
@@ -336,6 +342,7 @@ body {
   width: 50%;
 }
 
+/*---------Main Info-----------*/
 .tomato-title {
   font-size: 54px;
   font-weight: 700;
@@ -358,6 +365,7 @@ body {
   margin-right: 23px;
 }
 
+/*---------Lists-----------*/
 .list-title {
   display: inline-block;
   font-size: 20px;
@@ -403,6 +411,7 @@ body {
   height: 47%;
 }
 
+/*---------Downoald Button-----------*/
 .pdf-download-link {
   display: flex;
   justify-content: flex-end;
