@@ -25,7 +25,7 @@
   }
   /*--------CONTACT-----------*/
   .contact-form {
-    padding: 0 30px 50px 30px;
+    padding: 0 15px 35px 15px;
   }
   .form-head,
   .form-head + img {
@@ -33,7 +33,7 @@
   }
   /*--------PRODUCTS-----------*/
   #pink {
-    padding: 50px 30px;
+    padding: 50px 15px;
   }
   #tomato-cards {
     justify-content: center;
@@ -43,11 +43,10 @@
   }
   /*--------TOMATO ONE-----------*/
   #light-gray {
-    padding: 20px 30px 160px 30px;
+    padding: 20px 15px 130px 15px;
   }
   .tomato-one-img {
     height: auto;
-    margin-left: -20px;
   }
   #col1 {
     margin-right: 40px;
@@ -290,7 +289,10 @@
   }
   .activ-image img {
     height: 150px;
-}
+  }
+  .pdf-download-link a {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 668px) {
@@ -314,7 +316,7 @@
   }
   #gray {
     text-align: center;
-    padding: 30px 20px;
+    padding: 30px 15px;
   }
   .product {
     margin: 10px 0;
@@ -340,7 +342,7 @@
   }
   .vision-section .w-2,
   .mission-section .w-2 {
-    width: 70%;
+    width: 99%;
   }
   #dark-gray {
     text-align: center;
@@ -403,7 +405,7 @@
   }
   #form-col-1,
   #form-col-2 {
-    width: 70%;
+    width: 90%;
   }
   .submit-btn {
     margin: 0 auto;
@@ -432,14 +434,14 @@
     align-items: center;
   }
   .tomato-card {
-    width: 70%;
+    width: 90%;
   }
   /*--------TOMATO ONE-----------*/
   .tomato-title {
     font-size: 32px;
   }
   .tomato-yield {
-    font-size: 17px;
+    font-size: 19px;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -449,7 +451,7 @@
   .pdf-download-link a {
     font-size: 14px;
     padding: 10px 15px 10px 15px;
-    margin: 30px 30px 30px 10px;
+    margin: 30px 5px 30px 10px;
   }
   .pdf-icon {
     padding-right: 10px;
