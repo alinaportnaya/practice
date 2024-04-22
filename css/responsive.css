@@ -1,0 +1,531 @@
+@media (max-width: 1190px) {
+  /*--------HOME-----------*/
+  .header {
+    padding: 10px 30px;
+  }
+  #menu ul li a {
+    font-size: 17px;
+  }
+  #slider h1 {
+    font-size: 44px;
+  }
+  #slider a {
+    font-size: 15px;
+    height: 52px;
+    line-height: 52px;
+  }
+  #gray {
+    padding: 60px 30px;
+  }
+  .product-text a {
+    font-size: 15px;
+  }
+  #dark-gray {
+    padding: 0 30px;
+  }
+  /*--------CONTACT-----------*/
+  .contact-form {
+    padding: 0 15px 35px 15px;
+  }
+  .form-head,
+  .form-head + img {
+    padding: 0 30px;
+  }
+  /*--------PRODUCTS-----------*/
+  #pink {
+    padding: 50px 15px;
+  }
+  #tomato-cards {
+    justify-content: center;
+  }
+  .tomato-card {
+    width: 39%;
+  }
+  /*--------TOMATO ONE-----------*/
+  #light-gray {
+    padding: 20px 15px 130px 15px;
+  }
+  .tomato-one-img {
+    height: auto;
+  }
+  #col1 {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 1090px) {
+  /*--------HOME-----------*/
+  #menu ul li a,
+  .product-text a {
+    font-size: 14px;
+  }
+  #slider h1 {
+    font-size: 40px;
+  }
+  #slider a {
+    font-size: 14px;
+    height: 49px;
+    line-height: 49px;
+    width: 145px;
+  }
+  .footer-links ul {
+    padding-inline-start: 0;
+  }
+  .footer-links ul li {
+    margin-left: 30px;
+  }
+  .footer-links ul li a {
+    font-size: 15px;
+  }
+  .footer-social {
+    margin-left: 0px;
+  }
+  /*--------TOMATO ONE-----------*/
+  .tomato-title {
+    font-size: 52px;
+  }
+  .tomato-yield {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /*--------HOME-----------*/
+  .vision-title,
+  .mission-title,
+  .activ-title {
+    font-size: 53px;
+  }
+  .vision-description,
+  .mission-description {
+    font-size: 16px;
+  }
+  .activ-image img {
+    height: 170px;
+  }
+  .activ-name a {
+    font-size: 22px;
+  }
+  /*--------TOMATO ONE-----------*/
+  .tomato-title {
+    font-size: 48px;
+  }
+  .tomato-yield {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 995px) {
+  /*--------HOME-----------*/
+  #menu {
+    text-align: right;
+  }
+  #menu::before {
+    content: "";
+    display: inline-block;
+    background-size: 100% 100%;
+    background-image: url(./../images/menu.png);
+    width: 35px;
+    height: 35px;
+  }
+  #menu:active ul,
+  #menu ul:hover {
+    display: block;
+  }
+  #menu ul {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: none;
+  }
+  #menu ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .footer-links ul li a {
+    font-size: 14px;
+  }
+  .footer-links ul li {
+    margin-left: 20px;
+  }
+  .footer-credit {
+    font-size: 12px;
+  }
+  /*--------CONTACT-----------*/
+  .submit-btn {
+    padding: 16px 45px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 795px) {
+  /*--------HOME-----------*/
+  .vision-section {
+    margin-bottom: 20px;
+  }
+  .vision-title,
+  .mission-title,
+  .activ-title {
+    font-size: 48px;
+  }
+  .vision-description,
+  .mission-description {
+    padding-top: 26px;
+  }
+  .activ-name a {
+    font-size: 19px;
+    padding: 15px 0 25px 0;
+  }
+  .activ-description {
+    font-size: 14px;
+    padding: 40px 0 60px 0;
+  }
+  .nav-footer {
+    flex-direction: column;
+  }
+  .product-text a {
+    font-size: 12px;
+  }
+  /*--------CONTACT-----------*/
+  .form-head {
+    font-size: 42px;
+  }
+  .form-label,
+  .address-text {
+    font-size: 16px;
+  }
+  .address-title {
+    font-size: 18px;
+  }
+
+  /*--------PRODUCTS-----------*/
+  #pink .wrapper h1 {
+    font-size: 42px;
+  }
+  .company-info {
+    font-size: 16px;
+  }
+  .program-title {
+    font-size: 18px;
+  }
+  /*--------TOMATO ONE-----------*/
+  .tomato-title {
+    font-size: 34px;
+  }
+  .tomato-yield {
+    font-size: 20px;
+  }
+  .characteristics-list,
+  .plant-list,
+  .fruit-list,
+  .cycle-list,
+  .color-list {
+    font-size: 16px;
+  }
+  .list-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  /*--------HOME-----------*/
+  #slider {
+    margin-top: -170px;
+    padding: 280px 0;
+  }
+  #slider h1 {
+    margin: 26px;
+  }
+  #categories {
+    height: 140px;
+  }
+  .product-img {
+    height: 40px;
+  }
+  .vision-title,
+  .mission-title,
+  .activ-title {
+    font-size: 50px;
+  }
+  .vision-description,
+  .mission-description {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  /*--------CONTACT-----------*/
+  /*--------PRODUCTS-----------*/
+  .banner-1,
+  .banner {
+    padding: 220px 0;
+  }
+  #pink .wrapper h1 {
+    font-size: 40px;
+  }
+  .company-info,
+  .program-description {
+    font-size: 14px;
+  }
+  .program-title {
+    font-size: 16px;
+  }
+  .submit-btn {
+    padding: 16px 40px;
+    font-size: 14px;
+  }
+  /*--------TOMATO ONE-----------*/
+  .characteristics-list,
+  .plant-list,
+  .fruit-list,
+  .cycle-list,
+  .color-list {
+    font-size: 14px;
+  }
+  .list-title {
+    font-size: 16px;
+  }
+  .activ-image img {
+    height: 150px;
+  }
+  .pdf-download-link a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 668px) {
+  /*--------HOME-----------*/
+  #logo img {
+    width: 75%;
+  }
+  #slider {
+    padding: 250px 0;
+  }
+  #slider a {
+    font-size: 14px;
+    height: 49px;
+    line-height: 49px;
+    width: 140px;
+  }
+  #categories {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+  #gray {
+    text-align: center;
+    padding: 30px 15px;
+  }
+  .product {
+    margin: 10px 0;
+  }
+  .product-img {
+    padding-bottom: 5px;
+  }
+  .vision-section {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .mission-section {
+    flex-direction: column-reverse;
+  }
+  .vision-image img,
+  .mission-image img {
+    margin: 10px 0 0 0;
+  }
+  .vision-title,
+  .mission-title,
+  .activ-title {
+    font-size: 47px;
+  }
+  .vision-section .w-2,
+  .mission-section .w-2 {
+    width: 99%;
+  }
+  #dark-gray {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  #dark-gray .wrapper {
+    width: 70%;
+  }
+  #dark-gray .wrapper .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #dark-gray .wrapper .row .w-3 {
+    width: auto;
+  }
+  .activ-description {
+    padding: 40px 0 30px 0;
+  }
+  .activ-image img {
+    height: 170px;
+    width: auto;
+  }
+  .nav-footer {
+    flex-direction: row;
+  }
+  .footer-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0 16px 0;
+  }
+  /*--------CONTACT-----------*/
+  .banner-1,
+  .banner {
+    padding: 190px 0;
+  }
+  .bg-form .wrapper {
+    text-align: center;
+  }
+  .form-head {
+    font-size: 40px;
+    text-align: center;
+  }
+  .form-label,
+  .address-text {
+    font-size: 14px;
+  }
+  .address-title {
+    font-size: 16px;
+  }
+  .contact-form {
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  #form-col-1,
+  #form-col-2 {
+    width: 90%;
+  }
+  .submit-btn {
+    margin: 0 auto;
+    font-size: 13px;
+  }
+  .form-input {
+    padding: 14px;
+    font-size: 14px;
+  }
+  /*--------PRODUCTS-----------*/
+  .program-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .greenhouse-program,
+  .open-field-program,
+  .bush-type-program {
+    width: 80%;
+  }
+  .open-field-program .program-title,
+  .bush-type-program .program-title {
+    margin-top: 30px;
+  }
+  #tomato-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tomato-card {
+    width: 90%;
+  }
+  /*--------TOMATO ONE-----------*/
+  .tomato-title {
+    font-size: 32px;
+  }
+  .tomato-yield {
+    font-size: 19px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .yield-image {
+    margin: 0 0 10px 0;
+  }
+  .pdf-download-link a {
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    margin: 30px 5px 30px 10px;
+  }
+  .pdf-icon {
+    padding-right: 10px;
+  }
+  .return-link {
+    font-size: 12px;
+  }
+  .plant-list li::before,
+  .fruit-list li::before,
+  .cycle-list li::before {
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 550px) {
+  /*--------HOME-----------*/
+  #slider {
+    padding: 230px 0;
+  }
+  /*--------CONTACT-----------*/
+  .banner-1,
+  .banner {
+    padding: 170px 0;
+  }
+  .form-btns {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .submit-btn {
+    font-size: 13px;
+  }
+  /*--------TOMATO ONE-----------*/
+  .tomato-title {
+    font-size: 25px;
+  }
+  .pdf-download-link a {
+    font-size: 12px;
+  }
+  .pdf-icon {
+    padding-right: 7px;
+    width: 19px;
+  }
+  .yield-image {
+    width: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  /*--------HOME-----------*/
+  #slider {
+    padding: 210px 0;
+  }
+  .footer-credit {
+    font-size: 10px;
+  }
+  /*--------CONTACT-----------*/
+  /*--------PRODUCTS-----------*/
+  .banner-1,
+  .banner {
+    padding: 150px 0;
+  }
+  /*--------TOMATO ONE-----------*/
+}
+
+@media (max-width: 320px) {
+  /*--------HOME-----------*/
+  #slider {
+    padding: 180px 0;
+  }
+
+  /*--------CONTACT-----------*/
+  /*--------PRODUCTS-----------*/
+  .banner-1,
+  .banner {
+    padding: 120px 0;
+  }
+}
