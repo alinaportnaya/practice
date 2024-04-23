@@ -29,8 +29,18 @@
   }
   .form-head,
   .form-head + img {
-    padding: 0 30px;
+    padding: 0 15px;
   }
+  .cart-table {
+    margin: 0 15px;
+    width: 96%;
+  }
+  .cart-title {
+    margin: 40px 15px 15px 15px;
+  }
+  .mini-image {
+    width: 100px;
+}
   /*--------PRODUCTS-----------*/
   #pink {
     padding: 50px 15px;
@@ -160,6 +170,13 @@
     padding: 16px 45px;
     font-size: 15px;
   }
+  .cart-table th, .cart-table td {
+    font-size: 15px;
+}
+.cart-table button {
+  padding: 5px 15px;
+  font-size: 16px;
+}
 }
 
 @media (max-width: 795px) {
@@ -276,6 +293,10 @@
     padding: 16px 40px;
     font-size: 14px;
   }
+  .mini-image {
+    width:80px;
+}
+
   /*--------TOMATO ONE-----------*/
   .characteristics-list,
   .plant-list,
@@ -415,6 +436,19 @@
     padding: 14px;
     font-size: 14px;
   }
+  .cart-table th, .cart-table td {
+    font-size: 13px;
+}
+.cart-table button {
+  padding: 3px 13px;
+  font-size: 13px;
+}
+.cart-table {
+  width: 92%;
+}
+.cart-table {
+  margin: 0px 15px 0px 22px;
+}
   /*--------PRODUCTS-----------*/
   .program-details {
     flex-direction: column;
@@ -512,6 +546,9 @@
   .banner-1,
   .banner {
     padding: 150px 0;
+  }
+  .cart-table th, .cart-table td {
+    padding: 5px;
   }
   /*--------TOMATO ONE-----------*/
 }
