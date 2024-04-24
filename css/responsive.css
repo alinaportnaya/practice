@@ -447,7 +447,7 @@
   width: 92%;
 }
 .cart-table {
-  margin: 0px 15px 0px 22px;
+  margin: 0 auto;
 }
   /*--------PRODUCTS-----------*/
   .program-details {
@@ -531,9 +531,6 @@
   .yield-image {
     width: 30%;
   }
-    .cart-table {
-     margin: 0; 
-}
 }
 
 @media (max-width: 400px) {
